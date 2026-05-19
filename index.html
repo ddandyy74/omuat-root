@@ -4,51 +4,196 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="google-adsense-account" content="ca-pub-8593071109392389">
-    <title>Omuat - Information Resources</title>
-    <meta name="description" content="Omuat is a home for public information resources, including clear guides on family law topics and legal proposal updates." />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8593071109392389" crossorigin="anonymous"></script>
+    <title>Omuat - China Travel Guides & Medical Tourism Information</title>
+    <meta name="description" content="Omuat publishes travel guides for China and medical tourism information. Access city guides, hospital directories, and travel planning resources." />
     <link rel="canonical" href="https://omuat.com/" />
     <style>
-      :root { color-scheme: light; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #162033; background: #f5f1e8; }
-      body { margin: 0; }
-      main { min-height: 100vh; display: grid; place-items: center; padding: 48px 20px; }
-      .shell { width: min(940px, 100%); background: #fffaf0; border: 1px solid #e5d8c3; border-radius: 28px; padding: clamp(28px, 6vw, 64px); box-shadow: 0 24px 80px rgba(82, 62, 31, .12); }
-      .eyebrow { margin: 0 0 18px; color: #8a5a24; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; font-size: .78rem; }
-      h1 { margin: 0; font-size: clamp(2.4rem, 7vw, 5.4rem); line-height: .95; letter-spacing: -.06em; max-width: 780px; }
-      .lead { margin: 26px 0 0; font-size: clamp(1.05rem, 2.4vw, 1.35rem); line-height: 1.8; color: #4d5a6d; max-width: 720px; }
-      .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px; margin-top: 34px; }
-      .card { display: block; padding: 24px; border: 1px solid #eadcc7; border-radius: 22px; background: #fff; text-decoration: none; color: inherit; transition: transform .18s ease, box-shadow .18s ease; }
-      .card:hover { transform: translateY(-3px); box-shadow: 0 16px 40px rgba(82, 62, 31, .12); }
-      .card strong { display: block; font-size: 1.1rem; margin-bottom: 10px; }
-      .card p { margin: 0; color: #5f6b7c; line-height: 1.65; }
-      .notice { margin-top: 30px; padding: 18px 20px; border-radius: 18px; background: #f4ead9; color: #5c4a33; line-height: 1.65; }
-      footer { margin-top: 28px; display: flex; flex-wrap: wrap; gap: 16px; color: #6b7280; }
-      footer a { color: #7a4b16; font-weight: 700; }
+      :root { color-scheme: light; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #162033; background: #f8faf9; }
+      * { box-sizing: border-box; }
+      body { margin: 0; line-height: 1.7; }
+      .container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+      header { background: #fff; border-bottom: 1px solid #e5e7eb; padding: 16px 0; position: sticky; top: 0; z-index: 100; }
+      .header-inner { display: flex; justify-content: space-between; align-items: center; }
+      .logo { font-weight: 800; font-size: 1.5rem; color: #1a5f3f; text-decoration: none; }
+      nav a { margin-left: 24px; color: #4b5563; text-decoration: none; font-weight: 600; font-size: .95rem; }
+      nav a:hover { color: #1a5f3f; }
+      .hero { padding: 80px 24px 60px; background: linear-gradient(135deg, #f0fdf4 0%, #ecfeff 100%); }
+      .hero h1 { font-size: clamp(2.2rem, 5vw, 3.5rem); margin: 0 0 20px; line-height: 1.15; color: #0f3d2c; }
+      .hero .lead { font-size: 1.2rem; color: #4b5563; max-width: 640px; margin: 0 0 32px; }
+      .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+      .btn { display: inline-flex; align-items: center; gap: 8px; padding: 14px 24px; border-radius: 12px; font-weight: 700; text-decoration: none; font-size: 1rem; transition: all .2s; }
+      .btn-primary { background: #166534; color: #fff; }
+      .btn-primary:hover { background: #14532d; }
+      .btn-secondary { background: #fff; color: #166534; border: 2px solid #166534; }
+      .btn-secondary:hover { background: #f0fdf4; }
+      section { padding: 60px 24px; }
+      .section-title { font-size: 2rem; margin: 0 0 16px; color: #0f3d2c; }
+      .section-desc { color: #4b5563; margin: 0 0 40px; font-size: 1.1rem; }
+      .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px; }
+      .project-card { background: #fff; border-radius: 16px; padding: 32px; border: 1px solid #e5e7eb; text-decoration: none; color: inherit; transition: all .2s; }
+      .project-card:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(0,0,0,.08); border-color: #166534; }
+      .project-tag { display: inline-block; padding: 4px 12px; background: #f0fdf4; color: #166534; border-radius: 20px; font-size: .85rem; font-weight: 600; margin-bottom: 12px; }
+      .project-card h3 { font-size: 1.4rem; margin: 0 0 12px; color: #0f3d2c; }
+      .project-card p { color: #4b5563; margin: 0 0 16px; }
+      .project-link { color: #166534; font-weight: 600; font-size: .95rem; }
+      .about-section { background: #fff; }
+      .about-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 32px; }
+      .about-item h3 { font-size: 1.2rem; margin: 0 0 12px; color: #0f3d2c; }
+      .about-item p { color: #4b5563; margin: 0; }
+      .ad-container { margin: 40px 0; padding: 20px; background: #f9fafb; border-radius: 12px; text-align: center; }
+      .ad-label { font-size: 11px; color: #9ca3af; margin-bottom: 8px; display: block; text-transform: uppercase; letter-spacing: .05em; }
+      .content-section { background: #fff; }
+      .content-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; }
+      .content-card { background: #f9fafb; border-radius: 12px; padding: 24px; }
+      .content-card h3 { font-size: 1.1rem; margin: 0 0 12px; color: #0f3d2c; }
+      .content-card p { color: #4b5563; margin: 0 0 12px; font-size: .95rem; }
+      .content-card a { color: #166534; font-weight: 600; font-size: .9rem; }
+      footer { background: #0f3d2c; color: #fff; padding: 48px 24px; }
+      .footer-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 32px; max-width: 1100px; margin: 0 auto; }
+      .footer-col h4 { margin: 0 0 16px; font-size: 1rem; }
+      .footer-col a { display: block; color: #a7f3d0; text-decoration: none; margin-bottom: 10px; font-size: .95rem; }
+      .footer-col a:hover { color: #fff; }
+      .footer-col p { color: #a7f3d0; font-size: .9rem; line-height: 1.6; }
+      .copyright { text-align: center; padding-top: 32px; margin-top: 32px; border-top: 1px solid rgba(255,255,255,.1); color: #a7f3d0; font-size: .85rem; }
     </style>
   </head>
   <body>
-    <main>
-      <section class="shell">
-        <p class="eyebrow">Omuat information resources</p>
-        <h1>Clear public guides for important life decisions.</h1>
-        <p class="lead">Omuat hosts focused information resources. Our current public project explains family law proposal topics in plain Arabic for readers who want structured, accessible information.</p>
-        <div class="grid" aria-label="Current projects">
-          <a class="card" href="https://familylaw.omuat.com/">
-            <strong>Family Law Guide Egypt</strong>
-            <p>Arabic explanations of proposed family law changes covering divorce, marriage, custody, visitation, and support.</p>
-          </a>
-          <a class="card" href="https://familylaw.omuat.com/faq/">
-            <strong>Common Questions</strong>
-            <p>Simple answers to frequent questions about the family law proposal and its current status.</p>
-          </a>
+    <header>
+      <div class="container header-inner">
+        <a href="/" class="logo">Omuat</a>
+        <nav>
+          <a href="/blog/">Blog</a>
+          <a href="#projects">Projects</a>
+          <a href="/about/">About</a>
+          <a href="/contact/">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <h1>China Travel & Medical Tourism Information</h1>
+        <p class="lead">Omuat publishes practical guides and directories for travelers and medical visitors to China. From city guides to hospital directories, we create clear, accessible information resources.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">Explore Our Projects</a>
+          <a href="/about/" class="btn btn-secondary">About Omuat</a>
         </div>
-        <p class="notice">Content published under Omuat is for general information only. It is not legal advice and should not replace consultation with a qualified professional in your jurisdiction.</p>
-        <footer>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h2 class="section-title">Our Information Projects</h2>
+        <p class="section-desc">We develop specialized information resources across different domains, each designed to provide clear, practical guidance for specific audiences.</p>
+
+        <div class="projects-grid">
+          <a href="https://china.omuat.com/" class="project-card">
+            <span class="project-tag">Travel Guide</span>
+            <h3>Travel China</h3>
+            <p>Comprehensive English-language guides to 300+ Chinese cities. Discover attractions, local food culture, transport options, and practical travel planning resources.</p>
+            <span class="project-link">Visit china.omuat.com →</span>
+          </a>
+
+          <div class="project-card" style="opacity: .7;">
+            <span class="project-tag" style="background: #fef3c7; color: #92400e;">Coming Soon</span>
+            <h3>China Medical Tourism Guide</h3>
+            <p>Directory of international hospitals across China for medical travelers. Find JCI-accredited facilities, specialty hospitals, and practical information for healthcare visitors.</p>
+            <span class="project-link" style="color: #9ca3af;">Coming soon</span>
+          </div>
+        </div>
+
+        <div class="ad-container" aria-label="Advertisement">
+          <span class="ad-label">Advertisement</span>
+          <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-client="ca-pub-8593071109392389"
+               data-ad-slot="7174901130"
+               data-ad-format="auto"
+               data-full-width-responsive="true"></ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section">
+      <div class="container">
+        <h2 class="section-title">Why Omuat</h2>
+        <p class="section-desc">We believe clear information helps people make better decisions. Our approach focuses on accessibility, accuracy, and practical value.</p>
+
+        <div class="about-grid">
+          <div class="about-item">
+            <h3>Clear Language</h3>
+            <p>We translate complex topics into plain language. No jargon, no unnecessary complexity—just information you can actually use.</p>
+          </div>
+          <div class="about-item">
+            <h3>Practical Focus</h3>
+            <p>Every resource answers real questions. We research what people actually need to know and structure content around those needs.</p>
+          </div>
+          <div class="about-item">
+            <h3>Regular Updates</h3>
+            <p>Information changes. We monitor developments in our coverage areas and update content to reflect current situations.</p>
+          </div>
+          <div class="about-item">
+            <h3>Local Expertise</h3>
+            <p>Our guides are built on local knowledge. We combine research with on-the-ground understanding to provide context that generic resources miss.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="container">
+        <h2 class="section-title">Featured Content</h2>
+        <p class="section-desc">Highlights from across our information projects.</p>
+
+        <div class="content-grid">
+          <div class="content-card">
+            <h3>Travel Blog</h3>
+            <p>Practical guides for China travel, including visa information, AI translation tools, cultural experiences like Hanfu, and insider tips.</p>
+            <a href="/blog/">Read blog →</a>
+          </div>
+          <div class="content-card">
+            <h3>China Travel Planning</h3>
+            <p>Essential guides for first-time visitors to China, including visa-free transit options, transport between cities, and cultural tips.</p>
+            <a href="https://china.omuat.com/guides/">Read guides →</a>
+          </div>
+          <div class="content-card">
+            <h3>Chinese Food & Culture</h3>
+            <p>Explore regional cuisines, tea culture, and city-by-city food highlights from across China's diverse culinary landscape.</p>
+            <a href="https://china.omuat.com/food/">Discover food →</a>
+          </div>
+          <div class="content-card">
+            <h3>Medical Tourism Guide</h3>
+            <p>Learn about JCI-accredited hospitals in China, international patient services, treatment costs, and visa options for medical travelers.</p>
+            <a href="/blog/medical-tourism-guide.html">Read guide →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Omuat</h4>
+          <p>Information resources for China travel and medical tourism. Clear guides for better decisions.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <a href="/blog/">Travel Blog</a>
+          <a href="https://china.omuat.com/">City Guides</a>
+          <a href="/blog/medical-tourism-guide.html">Medical Tourism</a>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
           <a href="/privacy/">Privacy Policy</a>
           <a href="/disclaimer/">Disclaimer</a>
           <a href="/contact/">Contact</a>
-          <a href="/ads.txt">Ads.txt</a>
-        </footer>
-      </section>
-    </main>
+        </div>
+      </div>
+      <div class="copyright">
+        © 2026 Omuat. All information is provided for general purposes and does not constitute professional advice.
+      </div>
+    </footer>
   </body>
 </html>
